@@ -1,0 +1,12 @@
+package vn.shipgiumngoai.backend.model.enums;
+
+public enum OrderStatus {
+    PENDING_PAYMENT,
+    PAID_FINDING_DRIVER,
+    DRIVER_ASSIGNED,
+    VENDOR_CLOSED_WAITING_CUSTOMER,
+    WAITING_TOPUP_DIFF,
+    PURCHASED_DELIVERING,
+    COMPLETED,
+    CANCELLED_REFUNDED
+}
